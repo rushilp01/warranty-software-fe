@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #343a40;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+nav .btn:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-group button {
+  width: 100%;
+}
+
+.table {
+  margin-top: 30px;
+}
+

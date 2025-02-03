@@ -1,0 +1,50 @@
+.fetch-container {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    margin-right: 10px;
+}
+
+.motor-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.motor-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.motor-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.motor-card p {
+    margin: 5px 0;
+}
+
+.motor-card p strong {
+    color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3;
+}
